@@ -1,0 +1,692 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E616C0932AF2065400B8DF03 /* PressureComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = E616C0922AF2065400B8DF03 /* PressureComponent.swift */; };
+		E616C0952AF207AB00B8DF03 /* SpeedComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = E616C0942AF207AB00B8DF03 /* SpeedComponent.swift */; };
+		E616EAA62B07F6E60059E9E8 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = E616EAA52B07F6E60059E9E8 /* GoogleService-Info.plist */; };
+		E616EAA72B07F6E60059E9E8 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = E616EAA52B07F6E60059E9E8 /* GoogleService-Info.plist */; };
+		E616EAA82B07F6E60059E9E8 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = E616EAA52B07F6E60059E9E8 /* GoogleService-Info.plist */; };
+		E616EAAB2B07F9730059E9E8 /* FirebaseAnalytics in Frameworks */ = {isa = PBXBuildFile; productRef = E616EAAA2B07F9730059E9E8 /* FirebaseAnalytics */; };
+		E616EAAD2B07F9730059E9E8 /* FirebaseAnalyticsWithoutAdIdSupport in Frameworks */ = {isa = PBXBuildFile; productRef = E616EAAC2B07F9730059E9E8 /* FirebaseAnalyticsWithoutAdIdSupport */; };
+		E616EAAF2B07F9A30059E9E8 /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = E616EAAE2B07F9A30059E9E8 /* FirebaseAuth */; };
+		E616EAB12B07F9A30059E9E8 /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = E616EAB02B07F9A30059E9E8 /* FirebaseFirestore */; };
+		E616EAB32B07F9A30059E9E8 /* FirebaseFirestoreSwift in Frameworks */ = {isa = PBXBuildFile; productRef = E616EAB22B07F9A30059E9E8 /* FirebaseFirestoreSwift */; };
+		E616EAB52B07F9A30059E9E8 /* FirebaseStorage in Frameworks */ = {isa = PBXBuildFile; productRef = E616EAB42B07F9A30059E9E8 /* FirebaseStorage */; };
+		E649553E2B0DC7A900284652 /* dataProcessing.swift in Sources */ = {isa = PBXBuildFile; fileRef = E649553D2B0DC7A900284652 /* dataProcessing.swift */; };
+		E649553F2B0EF2CD00284652 /* smartWalkerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6E43D4C2AEF244F00154678 /* smartWalkerApp.swift */; };
+		E64955402B0EF2CD00284652 /* smartWalkerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6E43D4C2AEF244F00154678 /* smartWalkerApp.swift */; };
+		E68AAB782AF9B2D00066216F /* patientSelection.swift in Sources */ = {isa = PBXBuildFile; fileRef = E68AAB772AF9B2D00066216F /* patientSelection.swift */; };
+		E6E43D4D2AEF244F00154678 /* smartWalkerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6E43D4C2AEF244F00154678 /* smartWalkerApp.swift */; };
+		E6E43D4F2AEF244F00154678 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6E43D4E2AEF244F00154678 /* ContentView.swift */; };
+		E6E43D512AEF245200154678 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E6E43D502AEF245200154678 /* Assets.xcassets */; };
+		E6E43D542AEF245200154678 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E6E43D532AEF245200154678 /* Preview Assets.xcassets */; };
+		E6E43D5E2AEF245200154678 /* smartWalkerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6E43D5D2AEF245200154678 /* smartWalkerTests.swift */; };
+		E6E43D682AEF245200154678 /* smartWalkerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6E43D672AEF245200154678 /* smartWalkerUITests.swift */; };
+		E6E43D6A2AEF245200154678 /* smartWalkerUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6E43D692AEF245200154678 /* smartWalkerUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E6E43D5A2AEF245200154678 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E6E43D412AEF244F00154678 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E6E43D482AEF244F00154678;
+			remoteInfo = smartWalker;
+		};
+		E6E43D642AEF245200154678 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E6E43D412AEF244F00154678 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E6E43D482AEF244F00154678;
+			remoteInfo = smartWalker;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E616C0922AF2065400B8DF03 /* PressureComponent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PressureComponent.swift; sourceTree = "<group>"; };
+		E616C0942AF207AB00B8DF03 /* SpeedComponent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpeedComponent.swift; sourceTree = "<group>"; };
+		E616EAA52B07F6E60059E9E8 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		E649553D2B0DC7A900284652 /* dataProcessing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = dataProcessing.swift; sourceTree = "<group>"; };
+		E68AAB772AF9B2D00066216F /* patientSelection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = patientSelection.swift; sourceTree = "<group>"; };
+		E6E43D492AEF244F00154678 /* smartWalker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = smartWalker.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E6E43D4C2AEF244F00154678 /* smartWalkerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = smartWalkerApp.swift; sourceTree = "<group>"; };
+		E6E43D4E2AEF244F00154678 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		E6E43D502AEF245200154678 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E6E43D532AEF245200154678 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		E6E43D592AEF245200154678 /* smartWalkerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = smartWalkerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E6E43D5D2AEF245200154678 /* smartWalkerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = smartWalkerTests.swift; sourceTree = "<group>"; };
+		E6E43D632AEF245200154678 /* smartWalkerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = smartWalkerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E6E43D672AEF245200154678 /* smartWalkerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = smartWalkerUITests.swift; sourceTree = "<group>"; };
+		E6E43D692AEF245200154678 /* smartWalkerUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = smartWalkerUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E6E43D462AEF244F00154678 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E616EAB32B07F9A30059E9E8 /* FirebaseFirestoreSwift in Frameworks */,
+				E616EAAB2B07F9730059E9E8 /* FirebaseAnalytics in Frameworks */,
+				E616EAB12B07F9A30059E9E8 /* FirebaseFirestore in Frameworks */,
+				E616EAAF2B07F9A30059E9E8 /* FirebaseAuth in Frameworks */,
+				E616EAAD2B07F9730059E9E8 /* FirebaseAnalyticsWithoutAdIdSupport in Frameworks */,
+				E616EAB52B07F9A30059E9E8 /* FirebaseStorage in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E6E43D562AEF245200154678 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E6E43D602AEF245200154678 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E616C0912AF2064200B8DF03 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				E616C0922AF2065400B8DF03 /* PressureComponent.swift */,
+				E68AAB772AF9B2D00066216F /* patientSelection.swift */,
+				E616C0942AF207AB00B8DF03 /* SpeedComponent.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		E6E43D402AEF244F00154678 = {
+			isa = PBXGroup;
+			children = (
+				E6E43D4B2AEF244F00154678 /* smartWalker */,
+				E6E43D5C2AEF245200154678 /* smartWalkerTests */,
+				E6E43D662AEF245200154678 /* smartWalkerUITests */,
+				E6E43D4A2AEF244F00154678 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E6E43D4A2AEF244F00154678 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E6E43D492AEF244F00154678 /* smartWalker.app */,
+				E6E43D592AEF245200154678 /* smartWalkerTests.xctest */,
+				E6E43D632AEF245200154678 /* smartWalkerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E6E43D4B2AEF244F00154678 /* smartWalker */ = {
+			isa = PBXGroup;
+			children = (
+				E6E43D4C2AEF244F00154678 /* smartWalkerApp.swift */,
+				E649553D2B0DC7A900284652 /* dataProcessing.swift */,
+				E616C0912AF2064200B8DF03 /* Components */,
+				E6E43D4E2AEF244F00154678 /* ContentView.swift */,
+				E6E43D502AEF245200154678 /* Assets.xcassets */,
+				E616EAA52B07F6E60059E9E8 /* GoogleService-Info.plist */,
+				E6E43D522AEF245200154678 /* Preview Content */,
+			);
+			path = smartWalker;
+			sourceTree = "<group>";
+		};
+		E6E43D522AEF245200154678 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				E6E43D532AEF245200154678 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		E6E43D5C2AEF245200154678 /* smartWalkerTests */ = {
+			isa = PBXGroup;
+			children = (
+				E6E43D5D2AEF245200154678 /* smartWalkerTests.swift */,
+			);
+			path = smartWalkerTests;
+			sourceTree = "<group>";
+		};
+		E6E43D662AEF245200154678 /* smartWalkerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				E6E43D672AEF245200154678 /* smartWalkerUITests.swift */,
+				E6E43D692AEF245200154678 /* smartWalkerUITestsLaunchTests.swift */,
+			);
+			path = smartWalkerUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E6E43D482AEF244F00154678 /* smartWalker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E6E43D6D2AEF245200154678 /* Build configuration list for PBXNativeTarget "smartWalker" */;
+			buildPhases = (
+				E6E43D452AEF244F00154678 /* Sources */,
+				E6E43D462AEF244F00154678 /* Frameworks */,
+				E6E43D472AEF244F00154678 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = smartWalker;
+			packageProductDependencies = (
+				E616EAAA2B07F9730059E9E8 /* FirebaseAnalytics */,
+				E616EAAC2B07F9730059E9E8 /* FirebaseAnalyticsWithoutAdIdSupport */,
+				E616EAAE2B07F9A30059E9E8 /* FirebaseAuth */,
+				E616EAB02B07F9A30059E9E8 /* FirebaseFirestore */,
+				E616EAB22B07F9A30059E9E8 /* FirebaseFirestoreSwift */,
+				E616EAB42B07F9A30059E9E8 /* FirebaseStorage */,
+			);
+			productName = smartWalker;
+			productReference = E6E43D492AEF244F00154678 /* smartWalker.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E6E43D582AEF245200154678 /* smartWalkerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E6E43D702AEF245200154678 /* Build configuration list for PBXNativeTarget "smartWalkerTests" */;
+			buildPhases = (
+				E6E43D552AEF245200154678 /* Sources */,
+				E6E43D562AEF245200154678 /* Frameworks */,
+				E6E43D572AEF245200154678 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E6E43D5B2AEF245200154678 /* PBXTargetDependency */,
+			);
+			name = smartWalkerTests;
+			productName = smartWalkerTests;
+			productReference = E6E43D592AEF245200154678 /* smartWalkerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		E6E43D622AEF245200154678 /* smartWalkerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E6E43D732AEF245200154678 /* Build configuration list for PBXNativeTarget "smartWalkerUITests" */;
+			buildPhases = (
+				E6E43D5F2AEF245200154678 /* Sources */,
+				E6E43D602AEF245200154678 /* Frameworks */,
+				E6E43D612AEF245200154678 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E6E43D652AEF245200154678 /* PBXTargetDependency */,
+			);
+			name = smartWalkerUITests;
+			productName = smartWalkerUITests;
+			productReference = E6E43D632AEF245200154678 /* smartWalkerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E6E43D412AEF244F00154678 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					E6E43D482AEF244F00154678 = {
+						CreatedOnToolsVersion = 13.4;
+					};
+					E6E43D582AEF245200154678 = {
+						CreatedOnToolsVersion = 13.4;
+						TestTargetID = E6E43D482AEF244F00154678;
+					};
+					E6E43D622AEF245200154678 = {
+						CreatedOnToolsVersion = 13.4;
+						TestTargetID = E6E43D482AEF244F00154678;
+					};
+				};
+			};
+			buildConfigurationList = E6E43D442AEF244F00154678 /* Build configuration list for PBXProject "smartWalker" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E6E43D402AEF244F00154678;
+			packageReferences = (
+				E616EAA92B07F8FD0059E9E8 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+			);
+			productRefGroup = E6E43D4A2AEF244F00154678 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E6E43D482AEF244F00154678 /* smartWalker */,
+				E6E43D582AEF245200154678 /* smartWalkerTests */,
+				E6E43D622AEF245200154678 /* smartWalkerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E6E43D472AEF244F00154678 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E6E43D542AEF245200154678 /* Preview Assets.xcassets in Resources */,
+				E6E43D512AEF245200154678 /* Assets.xcassets in Resources */,
+				E616EAA62B07F6E60059E9E8 /* GoogleService-Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E6E43D572AEF245200154678 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E616EAA72B07F6E60059E9E8 /* GoogleService-Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E6E43D612AEF245200154678 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E616EAA82B07F6E60059E9E8 /* GoogleService-Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E6E43D452AEF244F00154678 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E649553E2B0DC7A900284652 /* dataProcessing.swift in Sources */,
+				E6E43D4F2AEF244F00154678 /* ContentView.swift in Sources */,
+				E616C0932AF2065400B8DF03 /* PressureComponent.swift in Sources */,
+				E6E43D4D2AEF244F00154678 /* smartWalkerApp.swift in Sources */,
+				E68AAB782AF9B2D00066216F /* patientSelection.swift in Sources */,
+				E616C0952AF207AB00B8DF03 /* SpeedComponent.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E6E43D552AEF245200154678 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E6E43D5E2AEF245200154678 /* smartWalkerTests.swift in Sources */,
+				E649553F2B0EF2CD00284652 /* smartWalkerApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E6E43D5F2AEF245200154678 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E6E43D6A2AEF245200154678 /* smartWalkerUITestsLaunchTests.swift in Sources */,
+				E6E43D682AEF245200154678 /* smartWalkerUITests.swift in Sources */,
+				E64955402B0EF2CD00284652 /* smartWalkerApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E6E43D5B2AEF245200154678 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E6E43D482AEF244F00154678 /* smartWalker */;
+			targetProxy = E6E43D5A2AEF245200154678 /* PBXContainerItemProxy */;
+		};
+		E6E43D652AEF245200154678 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E6E43D482AEF244F00154678 /* smartWalker */;
+			targetProxy = E6E43D642AEF245200154678 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		E6E43D6B2AEF245200154678 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E6E43D6C2AEF245200154678 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E6E43D6E2AEF245200154678 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"smartWalker/Preview Content\"";
+				DEVELOPMENT_TEAM = 37D8KH3EG9;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Nikhil.smartWalker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E6E43D6F2AEF245200154678 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"smartWalker/Preview Content\"";
+				DEVELOPMENT_TEAM = 37D8KH3EG9;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Nikhil.smartWalker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		E6E43D712AEF245200154678 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Nikhil.smartWalkerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/smartWalker.app/smartWalker";
+			};
+			name = Debug;
+		};
+		E6E43D722AEF245200154678 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Nikhil.smartWalkerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/smartWalker.app/smartWalker";
+			};
+			name = Release;
+		};
+		E6E43D742AEF245200154678 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Nikhil.smartWalkerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = smartWalker;
+			};
+			name = Debug;
+		};
+		E6E43D752AEF245200154678 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Nikhil.smartWalkerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = smartWalker;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E6E43D442AEF244F00154678 /* Build configuration list for PBXProject "smartWalker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E6E43D6B2AEF245200154678 /* Debug */,
+				E6E43D6C2AEF245200154678 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E6E43D6D2AEF245200154678 /* Build configuration list for PBXNativeTarget "smartWalker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E6E43D6E2AEF245200154678 /* Debug */,
+				E6E43D6F2AEF245200154678 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E6E43D702AEF245200154678 /* Build configuration list for PBXNativeTarget "smartWalkerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E6E43D712AEF245200154678 /* Debug */,
+				E6E43D722AEF245200154678 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E6E43D732AEF245200154678 /* Build configuration list for PBXNativeTarget "smartWalkerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E6E43D742AEF245200154678 /* Debug */,
+				E6E43D752AEF245200154678 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		E616EAA92B07F8FD0059E9E8 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 10.18.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		E616EAAA2B07F9730059E9E8 /* FirebaseAnalytics */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = E616EAA92B07F8FD0059E9E8 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAnalytics;
+		};
+		E616EAAC2B07F9730059E9E8 /* FirebaseAnalyticsWithoutAdIdSupport */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = E616EAA92B07F8FD0059E9E8 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAnalyticsWithoutAdIdSupport;
+		};
+		E616EAAE2B07F9A30059E9E8 /* FirebaseAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = E616EAA92B07F8FD0059E9E8 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAuth;
+		};
+		E616EAB02B07F9A30059E9E8 /* FirebaseFirestore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = E616EAA92B07F8FD0059E9E8 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestore;
+		};
+		E616EAB22B07F9A30059E9E8 /* FirebaseFirestoreSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = E616EAA92B07F8FD0059E9E8 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestoreSwift;
+		};
+		E616EAB42B07F9A30059E9E8 /* FirebaseStorage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = E616EAA92B07F8FD0059E9E8 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseStorage;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = E6E43D412AEF244F00154678 /* Project object */;
+}
